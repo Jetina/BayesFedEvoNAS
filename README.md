@@ -26,7 +26,7 @@ The system follows the two-component design of [FedNAS](https://github.com/RuiTo
 ├── model/
 │   ├── FedNASTrainer.py           # Client: local search/training with SGP-guided evolution
 │   ├── FedNASAggregator.py        # Server: FedAvg + prediction-driven aggregation
-│   ├── bendi sousuo.py            # Local (evolutionary) search variant
+│   ├── local_search.py            # Local (evolutionary) search variant
 │   └── origin.py                  # Original FedNAS aggregator (baseline)
 ├── darts/                         # DARTS supernet, operations, genotypes
 ├── data_preprocessing/datasets.py # Dataset partitioning (homo/hetero)
